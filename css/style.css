@@ -1,0 +1,268 @@
+/*  comentarios en css */
+
+.Body{
+    position: relative;
+    background-image: url(../img/FondoDePantalla.jpg);
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.Header__TituloPrincipal{
+    text-align: center;
+    background-image: url();
+}
+
+.Header__LogoLennys {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border: solid; color: gray;
+    border-radius: 50%;
+      
+}
+
+.NavHeader{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    background: linear-gradient(to bottom, #08519B,#499FF7) ;
+    padding: 10px;
+    
+}
+
+.NavHeader__Galeria:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+.NavHeader__Productos:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+.NavHeader__Faq:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+.NavHeader__Contacto:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+
+
+
+.NavHeader__Galeria,.NavHeader__Contacto,.NavHeader__Productos,.NavHeader__Faq{
+    font-size:20px ;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+.TituloSecundario{
+    text-align: center;
+    
+}
+
+.ContenedorBanner{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.ContenedorBanner__Secundario{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Banner01{
+    width: 250px;
+    height: 250px;
+}
+
+.Banner03{
+    width: 250px;
+    height: 250px;
+}
+
+.Banner02{
+    width: 900px;
+    
+}
+
+/*
+.ContenedorBanner0102{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContenedorBanner0304{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+} 
+
+.Banner01,.Banner02{
+    max-width: 20%;
+    max-height: 30%;
+}
+
+.Banner03{
+    max-width: 20%;
+    height: 200px;
+}
+.Banner04{
+    max-width: 20%;
+    height: 15%;
+} 
+*/
+
+/* FAQ */
+
+.BodyFaq{
+    margin: 0 auto;
+    background-image: url(../img/FondoDePantalla.jpg);
+}
+
+.TituloFaq{
+    text-align: center;
+}
+
+.GridPreguntasFrecuentes{
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+
+    
+    
+}
+
+.PregFaq01,.PregFaq02,.PregFaq03,.PregFaq04,.PregFaq05{
+    /*font-weight: bold;*/
+    background-color: lightblue;
+    border-radius: 30px;
+    border: 2px solid blue;
+    text-align: left;
+    padding: 5px;
+    
+    
+
+}
+
+#Rrss{
+    background: linear-gradient(to bottom, #08519B,#499FF7) ;
+    height: 100px;
+    
+}
+
+.Rrss__TextInstagram,.Rrss__TextFacebook,.TextWhatsapp{
+    font-size:x-large ;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Rrss__IconoWhatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.PieDeContacto{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.PieDeUbicacion__MapaUbicacion{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    
+}
+
+/* Galeria */
+
+.BodyGaleria{
+    background-image: url(../img/FondoDePantalla.jpg);
+}
+
+.TituloGaleria{
+    text-align: center;
+}
+
+.BodyGaleria__GridTodosLosModelos{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 10px;
+}
+
+
+
+.Samsung01,.Samsung02,.Samsung03{
+    max-width: 70%;
+    
+}
+
+.Huawei01,.Huawei02,.Huawei03{
+    max-width: 70%;
+    
+}
+
+.Iphone01,.Iphone02,.Iphone03{
+    max-width: 70%;
+    
+}
+
+.Lg01,.Lg02,.Lg03{
+    max-width: 70%;
+    
+}
+
+.Motorola01,.Motorola02,.Motorola03{
+    max-width: 70%;
+    
+}
+
+.Xiaomi01,.Xiaomi02,.Xiaomi03{
+    max-width: 70%;
+    
+}
+
+
+
+/* Productos */
+
+.BodyProductos{
+    background-image: url(../img/FondoDePantalla.jpg);
+}
+
+.TituloProductos{
+    text-align: center;
+}
+
+.Accesorios01,.Accesorios02,.Accesorios03,.Accesorios04{
+
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.ImgProductos{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Contacto */
+
+.BodyContacto{
+    background-image: url(../img/FondoDePantalla.jpg);
+}
+
