@@ -3,11 +3,14 @@
 .Body{
     position: relative;
     background-image: url(../img/FondoDePantalla.jpg);
+    background-size: cover;
     margin: 0 auto;
     max-width: 1200px;
     overflow-x: hidden;
     font-family: 'Roboto Slab', serif;
 }
+
+
 
 
 .Header__TituloPrincipal{
@@ -90,39 +93,13 @@
     width: 900px;
     
 }
-
-/*
-.ContenedorBanner0102{
-    display: flex;
-    justify-content: space-between;
-}
-
-.ContenedorBanner0304{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10%;
-} 
-
-.Banner01,.Banner02{
-    max-width: 20%;
-    max-height: 30%;
-}
-
-.Banner03{
-    max-width: 20%;
-    height: 200px;
-}
-.Banner04{
-    max-width: 20%;
-    height: 15%;
-} 
-*/
-
+    
 /* FAQ */
 
 .BodyFaq{
     margin: 0 auto;
     background-image: url(../img/FondoDePantalla.jpg);
+    background-size: cover;
 }
 
 .TituloFaq{
@@ -152,6 +129,8 @@
     
 
 }
+
+/*Footer*/
 
 #Rrss{
     background: linear-gradient(to bottom, #08519B,#499FF7) ;
@@ -192,14 +171,17 @@
 
 .BodyGaleria{
     background-image: url(../img/FondoDePantalla.jpg);
+    background-repeat:repeat;
 }
 
 .TituloGaleria{
     text-align: center;
 }
 
+
 .BodyGaleria__GridTodosLosModelos{
     display: grid;
+    height: 100vh;
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(6, 1fr);
     row-gap: 10px;
@@ -243,6 +225,7 @@
 
 .BodyProductos{
     background-image: url(../img/FondoDePantalla.jpg);
+    background-size: cover;
 }
 
 .TituloProductos{
@@ -264,5 +247,80 @@
 
 .BodyContacto{
     background-image: url(../img/FondoDePantalla.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 
+
+/* achicar imagenes del contenedor index/ contenido de informacion centrarlo
+al igual que el mapa.*/
+
+
+
+@media (max-width: 576px) {
+
+    /*Index*/
+
+    .ContenedorBanner{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        }
+    
+    .ContenedorBanner__Secundario{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        }
+
+        .Banner01{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .Banner03{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .Banner02{
+            width: 400px;
+            
+        }
+
+        .Informacion{
+            text-align: center;
+        }
+
+        /*Productos*/
+
+        .Accesorios01,.Accesorios02,.Accesorios03,.Accesorios04{
+
+            max-width: 350px;
+            max-height: 200px;
+            
+        }
+
+        .ImgProductos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #Rrss{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+            height: 100px;
+            
+        }
+
+
+        /*Contacto*/
+
+        .BodyContacto{
+            text-align: center;
+            height: 100vh;
+        }
+}
