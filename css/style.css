@@ -74,6 +74,11 @@
     
 }
 
+.ContenedorBanner02 {
+    padding-left: 50px;
+
+}
+
 .ContenedorBanner__Secundario{
     display: flex;
     flex-direction: column;
@@ -264,6 +269,8 @@ al igual que el mapa.*/
         justify-content: space-around;
         
         }
+
+   
     
     .ContenedorBanner__Secundario{
         display: flex;
@@ -282,7 +289,8 @@ al igual que el mapa.*/
         }
         
         .Banner02{
-            width: 100px;
+            width: 350px;
+            height: 250px;
         }
 
         .Informacion{
