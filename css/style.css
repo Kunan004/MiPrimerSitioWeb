@@ -70,7 +70,8 @@
 .ContenedorBanner{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    max-width: fit-content;
+    
 }
 
 .ContenedorBanner__Secundario{
@@ -80,17 +81,17 @@
 }
 
 .Banner01{
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .Banner03{
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
 
 .Banner02{
-    width: 900px;
+    max-width: 800px;
     
 }
     
@@ -261,7 +262,7 @@ al igual que el mapa.*/
     .ContenedorBanner{
         display: flex;
         justify-content: space-around;
-        text-align: center;
+        
         }
     
     .ContenedorBanner__Secundario{
@@ -281,7 +282,7 @@ al igual que el mapa.*/
         }
         
         .Banner02{
-            width: 100vw;
+            width: 100px;
         }
 
         .Informacion{
