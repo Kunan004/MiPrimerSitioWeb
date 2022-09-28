@@ -111,10 +111,7 @@
     grid-template-columns:  2fr 2fr 2fr 2fr;
     grid-template-rows: 2fr 2fr 2fr 2fr;
     grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    
-
-    
+    grid-row-gap: 10px;  
     
 }
 
@@ -284,8 +281,7 @@ al igual que el mapa.*/
         }
         
         .Banner02{
-            width: 400px;
-            
+            width: 100vw;
         }
 
         .Informacion{
@@ -323,4 +319,17 @@ al igual que el mapa.*/
             text-align: center;
             height: 100vh;
         }
+
+        /* FAQ */
+
+        .GridPreguntasFrecuentes{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center; 
+            
+        }
+
+     
+
 }
