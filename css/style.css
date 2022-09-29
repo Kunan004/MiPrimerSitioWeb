@@ -351,6 +351,15 @@ al igual que el mapa.*/
 
         /* FAQ */
 
+        .PregFaq01,.PregFaq02,.PregFaq03,.PregFaq04,.PregFaq05{
+            /*font-weight: bold;*/
+            background-color: lightblue;
+            border-radius: 30px;
+            border: 2px solid blue;
+            text-align: center;
+            padding: 5px;
+        }
+
         .GridPreguntasFrecuentes{
             display: flex;
             justify-content: center;
