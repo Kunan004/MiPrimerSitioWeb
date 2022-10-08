@@ -2,7 +2,8 @@
 
 .Body{
     position: relative;
-    background-image: url(../img/FondoDePantalla.jpg);
+    /*background-image: url(../img/FondoDePantalla.jpg);*/
+    background-color: #f5f5dc;
     background-size: cover;
     margin: 0 auto;
     max-width: 1200px;
@@ -31,14 +32,16 @@
     display: flex;
     justify-content: space-evenly;
     background-color: gray;
-    background: linear-gradient(to bottom, #08519B,#499FF7) ;
+    background: linear-gradient(to bottom, #f5f5dc,#cfaa5b) ;
     padding: 10px;
+    
     
 }
 
 .NavHeader__Galeria:hover{
     transition: 2s;
     font-size: 28px;
+    
 }
 .NavHeader__Productos:hover{
     transition: 2s;
@@ -62,11 +65,12 @@
     font-weight: bold;   
 }
 
+
 .TituloSecundario{
     text-align: center;
     
 }
-
+/*
 .ContenedorBanner{
     display: flex;
     justify-content: space-around;
@@ -81,25 +85,49 @@
 
 }
 
+
+
 .ContenedorBanner__Secundario{
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
 
+*/
+#carouselExampleControls{
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel-inner{
+    
+    max-height: 400px;
+    max-width: max-content;
+
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
 .Banner01{
-    width: 250px;
-    height: 250px;
+    max-width: fit-content;
+    max-height: 400px;
 }
 
 .Banner03{
-    max-width: 250px;
-    max-height: 250px;
+    max-width: max-content;
+    max-height: 400px;
 }
 
 .Banner02{
-    max-width: 950px;
-    height: 550px;
+    max-width: max-content;
+    max-height: max-content;
     padding-right: 10px;
     
     
@@ -109,7 +137,7 @@
 
 .BodyFaq{
     margin: 0 auto;
-    background-image: url(../img/FondoDePantalla.jpg);
+    background-color: #f5f5dc;
     background-size: cover;
 }
 
@@ -141,7 +169,7 @@
 /*Footer*/
 
 #Rrss{
-    background: linear-gradient(to bottom, #08519B,#499FF7) ;
+    background: linear-gradient(to bottom, #f5f5dc,#cfaa5b) ;
     height: 100px;
     
 }
@@ -178,7 +206,7 @@
 /* Galeria */
 
 .BodyGaleria{
-    background-image: url(../img/FondoDePantalla.jpg);
+    background-color: #f5f5dc;
     background-repeat:repeat;
 }
 
@@ -232,7 +260,7 @@
 /* Productos */
 
 .BodyProductos{
-    background-image: url(../img/FondoDePantalla.jpg);
+    background-color: #f5f5dc;
     background-size: cover;
 }
 
@@ -254,7 +282,7 @@
 /* Contacto */
 
 .BodyContacto{
-    background-image: url(../img/FondoDePantalla.jpg);
+    background-color: #f5f5dc;
     background-size: cover;
     height: 100vh;
 }
