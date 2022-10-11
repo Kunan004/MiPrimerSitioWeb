@@ -2,7 +2,6 @@
 
 .Body{
     position: relative;
-    /*background-image: url(../img/FondoDePantalla.jpg);*/
     background-color: #f5f5dc;
     background-size: cover;
     margin: 0 auto;
@@ -70,30 +69,7 @@
     text-align: center;
     
 }
-/*
-.ContenedorBanner{
-    display: flex;
-    justify-content: space-around;
-    max-width: 100vw;
-    
-}
 
-.ContenedorBanner02 {
-    padding-left: 10px;
-    width: 100vw;
-
-
-}
-
-
-
-.ContenedorBanner__Secundario{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-*/
 #carouselExampleControls{
     display: flex;
     justify-content: center;
@@ -156,9 +132,9 @@
 
 .PregFaq01,.PregFaq02,.PregFaq03,.PregFaq04,.PregFaq05{
     /*font-weight: bold;*/
-    background-color: lightblue;
+    background-color: #cfaa5b;
     border-radius: 30px;
-    border: 2px solid blue;
+    border: 2px solid #cfaa5b;
     text-align: left;
     padding: 5px;
     
