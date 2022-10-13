@@ -1,0 +1,381 @@
+.Body{
+    position: relative;
+    background-color: #f5f5dc;
+    background-size: cover;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow-x: hidden;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+.Header__TituloPrincipal{
+    text-align: center;
+    background-image: url();
+}
+
+.Header__LogoLennys {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border: solid; color: gray;
+    border-radius: 50%;
+      
+}
+
+.NavHeader{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    background: linear-gradient(to bottom, #f5f5dc,#cfaa5b) ;
+    padding: 10px;
+    
+    
+}
+
+.NavHeader__Galeria:hover{
+    transition: 2s;
+    font-size: 28px;
+    
+}
+.NavHeader__Productos:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+.NavHeader__Faq:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+.NavHeader__Contacto:hover{
+    transition: 2s;
+    font-size: 28px;
+}
+
+
+
+.NavHeader__Galeria,.NavHeader__Contacto,.NavHeader__Productos,.NavHeader__Faq{
+    font-size:20px ;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+
+.TituloSecundario{
+    text-align: center;
+    
+}
+
+#carouselExampleControls{
+    display: flex;
+    justify-content: center;
+}
+
+
+.carousel-inner{
+    
+    max-height: 400px;
+    max-width: max-content;
+
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+}
+
+.Banner01{
+    max-width: fit-content;
+    max-height: 400px;
+}
+
+.Banner03{
+    max-width: max-content;
+    max-height: 400px;
+}
+
+.Banner02{
+    max-width: max-content;
+    max-height: max-content;
+    padding-right: 10px;
+    
+    
+}
+    
+/* FAQ */
+
+.BodyFaq{
+    margin: 0 auto;
+    background-color: #f5f5dc;
+    background-size: cover;
+}
+
+.TituloFaq{
+    text-align: center;
+}
+
+.GridPreguntasFrecuentes{
+    display: grid;
+    grid-template-columns:  2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;  
+    
+}
+
+.PregFaq01,.PregFaq02,.PregFaq03,.PregFaq04,.PregFaq05{
+    /*font-weight: bold;*/
+    background-color: #cfaa5b;
+    border-radius: 30px;
+    border: 2px solid #cfaa5b;
+    text-align: left;
+    padding: 5px;
+    
+    
+
+}
+
+/*Footer*/
+
+#Rrss{
+    background: linear-gradient(to bottom, #f5f5dc,#cfaa5b) ;
+    height: 100px;
+    
+}
+
+.Rrss__TextInstagram,.Rrss__TextFacebook,.TextWhatsapp{
+    font-size:x-large ;
+    text-decoration: none;
+    color: black;
+}
+
+
+.Rrss__IconoWhatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.PieDeContacto{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.PieDeUbicacion__MapaUbicacion{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    
+}
+
+/* Galeria */
+
+.BodyGaleria{
+    background-color: #f5f5dc;
+    background-repeat:repeat;
+}
+
+.TituloGaleria{
+    text-align: center;
+}
+
+
+.BodyGaleria__GridTodosLosModelos{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 10px;
+}
+
+
+
+.Samsung01,.Samsung02,.Samsung03{
+    max-width: 70%;
+    
+}
+
+.Huawei01,.Huawei02,.Huawei03{
+    max-width: 70%;
+    
+}
+
+.Iphone01,.Iphone02,.Iphone03{
+    max-width: 70%;
+    
+}
+
+.Lg01,.Lg02,.Lg03{
+    max-width: 70%;
+    
+}
+
+.Motorola01,.Motorola02,.Motorola03{
+    max-width: 70%;
+    
+}
+
+.Xiaomi01,.Xiaomi02,.Xiaomi03{
+    max-width: 70%;
+    
+}
+
+
+
+/* Productos */
+
+.BodyProductos{
+    background-color: #f5f5dc;
+    background-size: cover;
+}
+
+.TituloProductos{
+    text-align: center;
+}
+
+.Accesorios01,.Accesorios02,.Accesorios03,.Accesorios04{
+
+    max-width: 300px;
+    max-height: 250px;
+}
+
+.ImgProductos{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Contacto */
+
+.BodyContacto{
+    background-color: #f5f5dc;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+/* achicar imagenes del contenedor index/ contenido de informacion centrarlo
+al igual que el mapa.*/
+
+
+@media (max-width: 576px) {
+
+    /*Index*/
+
+        .ContenedorBanner{
+        display: flex;
+        justify-content: space-around;
+        max-width: 100vw;
+        
+        }
+
+   
+    
+        .ContenedorBanner__Secundario{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        }
+
+        .ContenedorBanner02 {
+            padding-left: 10px;
+            
+        
+        }
+
+        .Banner01{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .Banner03{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .Banner02{
+            width: 285px;
+            height: 250px;
+        }
+
+        .Informacion{
+            text-align: center;
+        }
+
+        .Rrss__IconoWhatsapp{
+            position: fixed;
+            bottom: 30px;
+            right: 50px;
+            width: 50px;
+            height: 50px;
+            
+        }
+
+        /*Productos*/
+
+        .Accesorios01,.Accesorios02,.Accesorios03,.Accesorios04{
+
+            max-width: 350px;
+            max-height: 200px;
+            
+        }
+
+        .ImgProductos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #Rrss{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+
+            height: 100px;
+            
+        }
+
+
+        /*Contacto*/
+
+        .BodyContacto{
+            text-align: center;
+            height: 100vh;
+        }
+        
+        
+        /* FAQ */
+        .Contacto{
+            max-width: 100%;
+        }
+
+        .PregFaq01,.PregFaq02,.PregFaq03,.PregFaq04,.PregFaq05{
+            /*font-weight: bold;*/
+            background-color:#cfaa5b ;
+            border-radius: 30px;
+            border: 2px solid #cfaa5b;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .GridPreguntasFrecuentes{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center; 
+            
+        }
+
+     
+
+}
