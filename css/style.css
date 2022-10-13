@@ -264,6 +264,14 @@
 }
 
 
+.Contacto {
+    background-color:#cfaa5b ;
+    border-radius: 30px;
+    border: 2px solid #cfaa5b;
+    max-width: 50%;
+    padding: 5px;
+}
+
 /* achicar imagenes del contenedor index/ contenido de informacion centrarlo
 al igual que el mapa.*/
 
@@ -353,13 +361,31 @@ al igual que el mapa.*/
             height: 100vh;
         }
 
+        .Contacto {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        .Contacto_Info{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color:#cfaa5b ;
+            border-radius: 30px;
+            border: 2px solid #cfaa5b;
+            
+        }
+
+
         /* FAQ */
 
         .PregFaq01,.PregFaq02,.PregFaq03,.PregFaq04,.PregFaq05{
             /*font-weight: bold;*/
-            background-color: lightblue;
+            background-color:#cfaa5b ;
             border-radius: 30px;
-            border: 2px solid blue;
+            border: 2px solid #cfaa5b;
             text-align: center;
             padding: 5px;
         }
