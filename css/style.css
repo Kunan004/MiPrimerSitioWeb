@@ -361,21 +361,6 @@ al igual que el mapa.*/
             height: 100vh;
         }
 
-        .Contacto {
-            display: flex;
-            align-items: center;
-        }
-
-        
-        .Contacto_Info{
-            display: flex;
-            justify-content: center;
-            background-color:#cfaa5b ;
-            border-radius: 30px;
-            border: 2px solid #cfaa5b;
-            
-        }
-
 
         /* FAQ */
 
