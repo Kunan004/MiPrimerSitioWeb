@@ -363,7 +363,6 @@ al igual que el mapa.*/
 
         .Contacto {
             display: flex;
-            flex-direction: column;
             align-items: center;
         }
 
@@ -371,7 +370,6 @@ al igual que el mapa.*/
         .Contacto_Info{
             display: flex;
             justify-content: center;
-            flex-direction: column;
             background-color:#cfaa5b ;
             border-radius: 30px;
             border: 2px solid #cfaa5b;
