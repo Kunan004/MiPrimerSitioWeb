@@ -171,8 +171,8 @@
 
 .DescripcionProductos {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-around;
+  
 }
 
 .Accesorios01, .Accesorios02, .Accesorios03, .Accesorios04 {
