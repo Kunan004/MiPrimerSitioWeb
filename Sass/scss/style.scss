@@ -16,9 +16,21 @@
     background-image: url();
 }
 
-.Header__VinculoTitulo {
+.Header__VinculoTituloDiv {
+    display: flex;
+    justify-content: center;
+    
+     }
+  
+  .Header__VinculoTituloDiv_Nav {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
     text-align: center;
-    background-image: url(); }
+    text-decoration: none;
+  
+     }
+  
 
 .Header__LogoLennys {
     position: absolute;
